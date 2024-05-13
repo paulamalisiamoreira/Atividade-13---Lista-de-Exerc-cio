@@ -76,7 +76,7 @@ function descontoINSSporSalario() {
 
     document.getElementById('').innerText = salario2;
     document.getElementById('').innerText = salarioDescontado;
-    document.getElementById('').innerText = 
+    // document.getElementById('').innerText = 
 
    
 }
