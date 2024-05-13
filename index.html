@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <title></title>
+
+</head>
+<body>
+    <div id="atividade1"> 
+        <p>1- Escreva duas variáveis</p>
+            <p>Digite aqui a primeira:</p>
+                <input type="text" id="x">
+            <p>Digite aqui a segunda:</p>
+                <input type="text" id="y">
+
+        <p>a- Diferença entre as duas variáveis</p>
+        <p id="resultado1a"></p>
+        <button  onclick="javascript:diferençaEntreVariaveis()"> Resultado</button>
+
+        <p>b- Esse é o dobro da primeira mais o triplo da segunda variável</p>
+        <p id="resultado1b"></p>
+        <button onclick="javascript:dobroXmaisTriploY()">Resultado</button>
+
+        <p>c- Essa é a multiplicação das duas</p>
+        <p id="resultado1c"></p>
+        <button onclick="multEDivXY()">Resultado</button>
+
+
+        <p>d- Essa é a ordem das duas do maior para o menor</p>
+        <p id="resultado1d"></p>
+        <button onclick="colocaEmOrdem()">Resultado</button>
+
+    </div>
+
+    <div id="atividade2"> 
+        <p>2- Vamos calcular seu INSS</p>
+        <p>Informe seu nome:</p>
+        <input type="text"class="nome">
+        <p>Informe seu salário bruto:</p>
+        <input type="text" id="salarioBruto">
+
+        <p class="nome"></p>
+        <button  onclick="calculoINSS()">Calcular</button>
+        <p>Seu nome:</p>
+            <p class="nome"></p>
+        <p>Salário bruto: </p>
+            <p class="salarioBruto"></p>
+        <p>Valor do INSS:</p>
+            <p id="valorINSS"></p>
+        <p>Salário Líquido:</p>
+            <p id="salarioLiq"></p>
+
+    </div>
+
+    <div id="atividade3">
+        <p>3- Vamos calcular seu desconto do INSS baseado no quanto você ganha!</p>
+        <button onclick="descontoINSSporSalario()">Calcular</button>
+        <p>Nome:</p>
+        <p class="nome"></p>
+        <p>Salário bruto:</p>
+        <p class="salarioBruto"></p>
+        <p>Salário descontado:</p>
+        <p id="salarioDescontado"></p>
+        <p>Valor descontado:</p>
+        <p></p>
+
+
+    </div>
+</body>
+</html>
