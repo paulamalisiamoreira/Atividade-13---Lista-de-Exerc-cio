@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
     <title></title>
 
@@ -35,36 +36,39 @@
     </div>
 
     <div id="atividade2"> 
-        <p>2- Vamos calcular seu INSS</p>
+        <p>2- Vamos calcular seu INSS com uma taxa de 8%</p>
         <p>Informe seu nome:</p>
-        <input type="text"class="nome">
+        <input type="text" id="nome">
         <p>Informe seu salário bruto:</p>
         <input type="text" id="salarioBruto">
 
-        <p class="nome"></p>
-        <button  onclick="calculoINSS()">Calcular</button>
+        <!-- <p id="nome"></p> -->
+  
         <p>Seu nome:</p>
-            <p class="nome"></p>
+            <p id="nomee"></p>
         <p>Salário bruto: </p>
-            <p class="salarioBruto"></p>
+            <p id="salarioBrutoo"></p>
         <p>Valor do INSS:</p>
             <p id="valorINSS"></p>
         <p>Salário Líquido:</p>
             <p id="salarioLiq"></p>
-
+        <button  onclick="calculoINSS()">Calcular</button>
     </div>
 
     <div id="atividade3">
         <p>3- Vamos calcular seu desconto do INSS baseado no quanto você ganha!</p>
         <button onclick="descontoINSSporSalario()">Calcular</button>
-        <p>Nome:</p>
+
+
+
+        <!-- <p>Nome:</p>
         <p class="nome"></p>
         <p>Salário bruto:</p>
         <p class="salarioBruto"></p>
         <p>Salário descontado:</p>
         <p id="salarioDescontado"></p>
         <p>Valor descontado:</p>
-        <p></p>
+        <p></p> -->
 
 
     </div>
